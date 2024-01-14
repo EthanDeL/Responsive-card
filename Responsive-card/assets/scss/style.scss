@@ -1,0 +1,37 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  /* COLORS */
+  --primary-color: hsl(0, 0%, 7%);
+  --secondary-color: hsl(0, 0%, 100%);
+  --light-gray-color: hsl(0, 1%, 81%);
+  --dark-gray-color: hsl(0, 0%, 48%);
+
+  /* FONT-WEIGHT */
+  --big-font-weight: 800;
+  --medium-font-weight: 600;
+  --normal-font-weight: 400;
+
+  /* BACKGROUND COLOR */
+  --background-color: hsla(0, 23%, 94%, 0.274);
+}
+
+/* BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Poppins';
+  height: 100vh;
+  display: flex;
+  overflow-x: hidden;
+  background-color: var(--background-color);
+}
+
+/* CARD */
